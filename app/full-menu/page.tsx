@@ -272,7 +272,27 @@ export default function FullMenu() {
   }, [cart])
 
   return (
-    <div className="min-h-screen flex flex-col bg-white">
+    <div className="w-full">
+      {/* Hero Section */}
+      <section className="w-full py-16 bg-white">
+        <div className="container mx-auto px-4 text-center">
+          <h1 className="text-4xl font-bold text-emerald-700 mb-6 text-center mt-16">FULL MENU</h1>
+          <p className="text-lg text-gray-700 mb-2 max-w-2xl mx-auto text-center">
+            "Step-by-step workout plans for a healthy lifestyle"
+          </p>
+          <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto text-center">
+            At Green Z, we teach functional movements and workouts with an emphasis on technique, progression, and
+            efficiency
+          </p>
+          <Link
+            href="/plans"
+            className="inline-block bg-gray-200 text-gray-700 px-6 py-2 rounded-md hover:bg-gray-300 transition-colors"
+          >
+            Click Here
+          </Link>
+        </div>
+      </section>
+
       {/* Header */}
       <header className="sticky top-0 z-10 bg-white shadow-sm">
         <div className="container mx-auto px-4">
