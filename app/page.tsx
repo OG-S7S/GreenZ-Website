@@ -14,7 +14,7 @@ export default function Home() {
                 A NEW APPROACH TO HEALTH & LIFE
               </h2>
               <Link
-                href="/plans"
+                href="/signup"
                 className="mt-6 inline-block bg-emerald-600 text-white px-6 py-3 rounded-md hover:bg-emerald-700 transition-colors"
               >
                 Get Started

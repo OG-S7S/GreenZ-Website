@@ -133,6 +133,12 @@ export default function Signup() {
             >
               sign up
             </button>
+
+            <div className="text-center mt-4">
+              <Link href="/login" className="text-emerald-600 hover:text-emerald-700 text-sm">
+                ALREADY HAVE AN ACCOUNT? LOGIN
+              </Link>
+            </div>
           </form>
 
           <div className="mt-12 border-t pt-8"></div>
