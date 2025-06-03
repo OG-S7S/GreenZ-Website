@@ -3,6 +3,7 @@
 import type React from "react"
 
 import { useState } from "react"
+import Image from "next/image"
 
 export default function ContactUs() {
   const [formData, setFormData] = useState({
@@ -203,9 +204,8 @@ export default function ContactUs() {
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-center mb-8">Find Us</h2>
           <div className="bg-gray-300 h-[400px] rounded-lg overflow-hidden">
-            {/* This would be replaced with an actual map component */}
             <div className="h-full w-full flex items-center justify-center bg-gray-200">
-              <p className="text-gray-600">Interactive Map Would Be Displayed Here</p>
+              <Image src="/images/map.jpeg" alt="Location Map" width={1000} height={400} className="object-cover w-full h-full" />
             </div>
           </div>
         </div>

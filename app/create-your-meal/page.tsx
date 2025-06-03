@@ -27,7 +27,7 @@ export default function CreateYourMeal() {
             <div className="md:w-1/2">
               <div className="relative h-[400px] w-full rounded-xl overflow-hidden shadow-xl">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mariana-medvedeva-usfIE5Yc7PY-unsplash.jpg-KWXrI2KOzshUMwZms9TsaD1o4Oq532.jpeg"
+                  src="/images/hawaiian-chicken.jpeg"
                   alt="Fresh ingredients"
                   fill
                   className="object-cover"
@@ -42,16 +42,16 @@ export default function CreateYourMeal() {
       <section className="w-full py-16 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="bg-white p-10 rounded-xl shadow-lg max-w-4xl mx-auto mb-16">
-            <h2 className="text-2xl font-bold mb-8">INCLUDED</h2>
-            <div className="border-b pb-6">
+            <h2 className="text-2xl font-bold text-center mb-8">WANT TO KNOW MORE?</h2>
+            {/* <div className="border-b pb-6">
               <div className="flex justify-between mb-6">
                 <button className="text-gray-800 font-medium hover:text-emerald-600 transition-colors">FATS</button>
                 <button className="text-gray-800 font-medium hover:text-emerald-600 transition-colors">CARBS</button>
                 <button className="text-gray-800 font-medium hover:text-emerald-600 transition-colors">PROTEINS</button>
                 <button className="text-gray-800 font-medium hover:text-emerald-600 transition-colors">SEMPER</button>
               </div>
-            </div>
-            <div className="py-6">
+            </div> */}
+            {/* <div className="py-6">
               <ul className="space-y-5">
                 <li className="text-gray-700">Vegan Greek Salad</li>
                 <li className="text-gray-700">Garlic Butter-Roasted Salmon with Potatoes & Asparagus</li>
@@ -59,7 +59,7 @@ export default function CreateYourMeal() {
                 <li className="text-gray-700">Sesame chicken</li>
                 <li className="text-gray-700">Hawaiian Chicken</li>
               </ul>
-            </div>
+            </div> */}
             <div className="flex justify-center mt-8">
               <Link
                 href="/green-z-doctors"
@@ -82,7 +82,7 @@ export default function CreateYourMeal() {
             <div className="flex flex-col">
               <div className="mb-6 relative h-[280px] w-full rounded-xl overflow-hidden shadow-xl">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mariana-medvedeva-usfIE5Yc7PY-unsplash.jpg-KWXrI2KOzshUMwZms9TsaD1o4Oq532.jpeg"
+                  src="/images/shrimp.jpg"
                   alt="Chinese shrimp and broccoli"
                   fill
                   className="object-cover"
@@ -105,7 +105,7 @@ export default function CreateYourMeal() {
             <div className="flex flex-col">
               <div className="mb-6 relative h-[280px] w-full rounded-xl overflow-hidden shadow-xl">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/chad-montano-M0lUxgLnlfk-unsplash.jpg-oxrl3L1WAOFzJLOperSgb1tRF75hov.jpeg"
+                  src="/images/sesame-chicken.jpeg"
                   alt="Sesame chicken"
                   fill
                   className="object-cover"
@@ -217,7 +217,7 @@ export default function CreateYourMeal() {
             <div className="flex flex-col">
               <div className="mb-6 relative h-[280px] w-full rounded-xl overflow-hidden shadow-xl">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mariana-medvedeva-usfIE5Yc7PY-unsplash.jpg-KWXrI2KOzshUMwZms9TsaD1o4Oq532.jpeg"
+                  src="/images/greek-salad.png"
                   alt="Vegan Greek Salad"
                   fill
                   className="object-cover"
@@ -240,7 +240,7 @@ export default function CreateYourMeal() {
             <div className="flex flex-col">
               <div className="mb-6 relative h-[280px] w-full rounded-xl overflow-hidden shadow-xl">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/chad-montano-M0lUxgLnlfk-unsplash.jpg-oxrl3L1WAOFzJLOperSgb1tRF75hov.jpeg"
+                  src="/images/hawaiian-chicken.jpeg"
                   alt="Hawaiian Chicken Salad"
                   fill
                   className="object-cover"
@@ -263,7 +263,7 @@ export default function CreateYourMeal() {
             <div className="flex flex-col">
               <div className="mb-6 relative h-[280px] w-full rounded-xl overflow-hidden shadow-xl">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/chad-montano-M0lUxgLnlfk-unsplash.jpg-oxrl3L1WAOFzJLOperSgb1tRF75hov.jpeg"
+                  src="/images/shrimp.jpg"
                   alt="Garlic Butter-Roasted Salmon with Potatoes & Asparagus"
                   fill
                   className="object-cover"

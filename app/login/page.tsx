@@ -28,9 +28,7 @@ export default function Login() {
         <button className="p-2">
           <Menu className="h-6 w-6" />
         </button>
-        <Link href="/" className="flex-1 text-center text-xl font-bold">
-          Green Z
-        </Link>
+        <div className="flex-1"></div>
         <div className="flex items-center space-x-4">
           <button className="p-2">
             <Search className="h-6 w-6" />
@@ -102,13 +100,10 @@ export default function Login() {
       </main>
 
       {/* Footer */}
-      <footer className="py-6 flex justify-center space-x-4">
-        <Link href="#" className="text-gray-600 hover:text-emerald-700">
-          <Facebook className="h-5 w-5" />
-        </Link>
-        <Link href="#" className="text-gray-600 hover:text-emerald-700">
-          <Instagram className="h-5 w-5" />
-        </Link>
+      <footer className="py-6">
+        <div className="text-center text-sm text-gray-500">
+          © 2024 Green Z. All rights reserved.
+        </div>
       </footer>
     </div>
   )

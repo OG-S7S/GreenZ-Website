@@ -36,7 +36,7 @@ export default function FullMenu() {
       description: "Grilled chicken with pineapple, bell peppers, and our signature teriyaki sauce",
       price: 250,
       image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-04-22%20at%2020.32.26%20%281%29-yyVWfs4Vo4ASPlE7IM5PGwuub9rOjn.jpeg",
+        "/images/hawaiian-chicken.jpeg",
       category: "Main Dishes",
       nutrition: {
         calories: 350,
@@ -52,7 +52,7 @@ export default function FullMenu() {
       description: "Tender chicken pieces with sesame seeds in a sweet and savory sauce",
       price: 220,
       image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-04-22%20at%2020.32.25%20%284%29-CLobySOs262iCZl2ZCLMJojTpDv67j.jpeg",
+        "/images/sesame-chicken.jpeg",
       category: "Main Dishes",
       nutrition: {
         calories: 380,
@@ -83,7 +83,7 @@ export default function FullMenu() {
       description: "Stir-fried shrimp and broccoli in a light garlic sauce",
       price: 300,
       image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-04-22%20at%2020.32.26%20%281%29-yyVWfs4Vo4ASPlE7IM5PGwuub9rOjn.jpeg",
+        "/images/shrimp.jpg",
       category: "Main Dishes",
       nutrition: {
         calories: 280,
@@ -179,7 +179,7 @@ export default function FullMenu() {
       description: "Healthy brownies made with dark chocolate and ripe bananas",
       price: 90,
       image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-04-22%20at%2020.32.26%20%283%29-cFemlApuyWbEIlJ1kvkaEyTXbtPlJm.jpeg",
+        "/images/banana-brownies.png",
       category: "Desserts",
       nutrition: {
         calories: 150,
@@ -195,7 +195,7 @@ export default function FullMenu() {
       description: "Whole grain waffles made with oats and bananas",
       price: 160,
       image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-04-22%20at%2020.32.26%20%283%29-cFemlApuyWbEIlJ1kvkaEyTXbtPlJm.jpeg",
+        "/images/banana-chocolate.png",
       category: "Desserts",
       nutrition: {
         calories: 180,
@@ -211,7 +211,7 @@ export default function FullMenu() {
       description: "Frozen banana slices dipped in dark chocolate",
       price: 40,
       image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-04-22%20at%2020.32.26%20%283%29-cFemlApuyWbEIlJ1kvkaEyTXbtPlJm.jpeg",
+        "/images/banana-waffles.png",
       category: "Desserts",
       nutrition: {
         calories: 90,

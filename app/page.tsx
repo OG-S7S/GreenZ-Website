@@ -30,50 +30,50 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-emerald-800 text-center mb-8">Our Features</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Feature 1 */}
-            <div className="flex flex-col">
-              <div className="mb-4 overflow-hidden rounded-lg">
+            <div className="flex flex-col items-center">
+              <div className="mb-4 overflow-hidden rounded-lg w-full h-60 flex items-center justify-center bg-white">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mariana-medvedeva-usfIE5Yc7PY-unsplash.jpg-G0JHWuYbxuLbjODN6UvUFpngsBdRpB.jpeg"
+                  src="/images/pexels-xmtnguyen-699953.jpg"
                   alt="Healthy Menu"
                   width={400}
-                  height={300}
-                  className="w-full h-auto object-cover"
+                  height={240}
+                  className="object-cover w-full h-full"
                 />
               </div>
               <h3 className="text-lg font-bold text-emerald-800 mb-2">Healthy menu</h3>
-              <p className="text-sm text-gray-600">
+              <p className="text-sm text-gray-600 text-center">
                 prepared meal · create your meal choose your base flexible delivery
               </p>
             </div>
 
             {/* Feature 2 */}
-            <div className="flex flex-col">
-              <div className="mb-4 overflow-hidden rounded-lg">
+            <div className="flex flex-col items-center">
+              <div className="mb-4 overflow-hidden rounded-lg w-full h-60 flex items-center justify-center bg-white">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mariana-medvedeva-usfIE5Yc7PY-unsplash.jpg-G0JHWuYbxuLbjODN6UvUFpngsBdRpB.jpeg"
-                  alt="Nutrition Plan"
-                  width={400}
-                  height={300}
-                  className="w-full h-auto object-cover"
-                />
-              </div>
-              <h3 className="text-lg font-bold text-emerald-800 mb-2">Nutrition plan</h3>
-              <p className="text-sm text-gray-600">personalized nutrition plan · based on your needs · expert advice</p>
-            </div>
-
-            {/* Feature 3 */}
-            <div className="flex flex-col">
-              <div className="mb-4 overflow-hidden rounded-lg">
-                <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mariana-medvedeva-usfIE5Yc7PY-unsplash.jpg-G0JHWuYbxuLbjODN6UvUFpngsBdRpB.jpeg"
+                  src="/images/delivery.jpg"
                   alt="Fast Delivery"
                   width={400}
-                  height={300}
-                  className="w-full h-auto object-cover"
+                  height={240}
+                  className="object-cover w-full h-full"
                 />
               </div>
               <h3 className="text-lg font-bold text-emerald-800 mb-2">Fast delivery</h3>
-              <p className="text-sm text-gray-600">same day delivery · fresh ingredients · delivered to your door</p>
+              <p className="text-sm text-gray-600 text-center">same day delivery · fresh ingredients · delivered to your door</p>
+            </div>
+
+            {/* Feature 3 */}
+            <div className="flex flex-col items-center">
+              <div className="mb-4 overflow-hidden rounded-lg w-full h-60 flex items-center justify-center bg-white">
+                <Image
+                  src="/images/pexels-allan-mas-5383558.jpg"
+                  alt="Nutrition Plan"
+                  width={400}
+                  height={240}
+                  className="object-cover w-full h-full"
+                />
+              </div>
+              <h3 className="text-lg font-bold text-emerald-800 mb-2">Nutrition plan</h3>
+              <p className="text-sm text-gray-600 text-center">personalized nutrition plan · based on your needs · expert advice</p>
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@ export default function Home() {
             <div className="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <div className="h-48 relative">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/chad-montano-M0lUxgLnlfk-unsplash.jpg-oxrl3L1WAOFzJLOperSgb1tRF75hov.jpeg"
+                  src="/images/pexels-julieaagaard-2097090.jpg"
                   alt="Hawaiian Chicken"
                   fill
                   className="object-cover"
@@ -117,7 +117,7 @@ export default function Home() {
             <div className="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <div className="h-48 relative">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mariana-medvedeva-usfIE5Yc7PY-unsplash.jpg-KWXrI2KOzshUMwZms9TsaD1o4Oq532.jpeg"
+                  src="/images/pexels-ella-olsson-572949-1640773.jpg"
                   alt="Greek Salad"
                   fill
                   className="object-cover"
@@ -140,7 +140,7 @@ export default function Home() {
             <div className="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <div className="h-48 relative">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/chad-montano-M0lUxgLnlfk-unsplash.jpg-oxrl3L1WAOFzJLOperSgb1tRF75hov.jpeg"
+                  src="/images/Steak.jpg"
                   alt="Garlic Butter Steak"
                   fill
                   className="object-cover"

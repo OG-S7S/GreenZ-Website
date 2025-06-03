@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import Footer from "@/components/Footer"
+import Footer from "@/components/footer"
 
 export default function Workout() {
   return (
@@ -37,7 +37,7 @@ export default function Workout() {
             <div className="flex flex-col items-center">
               <div className="mb-4 w-full h-48 flex items-center justify-center overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=200&width=200"
+                  src="/images/fitness.jpg"
                   alt="Body Shaping"
                   width={200}
                   height={200}
@@ -54,7 +54,7 @@ export default function Workout() {
             <div className="flex flex-col items-center">
               <div className="mb-4 w-full h-48 flex items-center justify-center overflow-hidden">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/alexander-red-d3bYmnZ0ank-unsplash.jpg-X1X1ipqzQ5KrfPRdAaSP8D1bMCPEPg.jpeg"
+                  src="/images/ballerena.jpg"
                   alt="Home Workouts"
                   width={200}
                   height={200}
@@ -69,7 +69,7 @@ export default function Workout() {
             <div className="flex flex-col items-center">
               <div className="mb-4 w-full h-48 flex items-center justify-center overflow-hidden">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-victorfreitas-703016.jpg-hKn72rnvfcuZRq0HQfB5l60Ad7g97R.jpeg"
+                  src="/images/basketball.jpg"
                   alt="Personal Training"
                   width={200}
                   height={200}
@@ -143,9 +143,9 @@ export default function Workout() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* 10-minute Full-body */}
             <div className="flex flex-col items-center">
-              <div className="mb-4 overflow-hidden rounded-lg h-64 w-full">
+              <div className="mb-4 overflow-hidden rounded-lg h-82 w-full">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="/images/Horse.jpg"
                   alt="10-minute Full-body"
                   width={300}
                   height={300}
@@ -157,9 +157,9 @@ export default function Workout() {
 
             {/* Abs */}
             <div className="flex flex-col items-center">
-              <div className="mb-4 overflow-hidden rounded-lg h-64 w-full">
+              <div className="mb-4 overflow-hidden rounded-lg h-82 w-full">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="/images/OneLeg.jpg"
                   alt="Abs"
                   width={300}
                   height={300}
@@ -171,9 +171,9 @@ export default function Workout() {
 
             {/* Yoga Routine */}
             <div className="flex flex-col items-center">
-              <div className="mb-4 overflow-hidden rounded-lg h-64 w-full">
+              <div className="mb-4 overflow-hidden rounded-lg h-82 w-full">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="/images/climb.jpg"
                   alt="Yoga Routine"
                   width={300}
                   height={300}

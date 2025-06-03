@@ -25,9 +25,9 @@ export default function Footer() {
               <a href="#" className="text-gray-400 hover:text-emerald-500 transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-emerald-500 transition-colors">
+              {/* <a href="#" className="text-gray-400 hover:text-emerald-500 transition-colors">
                 <Twitter size={20} />
-              </a>
+              </a> */}
             </div>
           </div>
 

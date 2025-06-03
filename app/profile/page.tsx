@@ -108,7 +108,7 @@ export default function ProfilePage() {
                 <div className="relative mb-4">
                   <div className="w-24 h-24 rounded-full overflow-hidden">
                     <Image
-                      src={user.profileImage || "/placeholder.svg"}
+                      src={user.profileImage || "/images/Profile.jpg"}
                       alt={user.name}
                       width={96}
                       height={96}

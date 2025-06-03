@@ -31,7 +31,7 @@ export default function Plans() {
                 <h1 className="text-2xl font-bold mb-6">Subscribe in Green Z</h1>
                 <div className="flex justify-center mb-8">
                   <Image
-                    src="/placeholder.svg?height=150&width=200"
+                    src="/images/Subscription.jpg"
                     alt="Subscription"
                     width={200}
                     height={150}
@@ -61,7 +61,7 @@ export default function Plans() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
                 {/* Basic Plan */}
                 <div
-                  className={`bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-lg transition-all hover:shadow-xl ${
+                  className={`bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-lg transition-all hover:shadow-xl flex flex-col h-full ${
                     selectedPlan === "basic" ? "border-2 border-emerald-500 ring-2 ring-emerald-200" : ""
                   }`}
                   onClick={() => handlePlanSelect("basic")}
@@ -71,7 +71,7 @@ export default function Plans() {
                     <h3 className="text-3xl font-bold mb-1">2200 L.E</h3>
                     <p className="text-sm text-gray-600">Per member, per Month</p>
                   </div>
-                  <ul className="space-y-3">
+                  <ul className="space-y-3 flex-grow">
                     <li className="flex items-start">
                       <div className="flex-shrink-0 h-5 w-5 rounded-full bg-emerald-500 flex items-center justify-center mt-0.5">
                         <svg className="h-3 w-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -126,17 +126,19 @@ export default function Plans() {
                       <span className="ml-2 text-sm text-gray-700">3 sessions/month +some classes</span>
                     </li>
                   </ul>
-                  <button
-                    onClick={handlePaymentStep}
-                    className="w-full mt-6 bg-emerald-600 text-white py-2 rounded text-sm hover:bg-emerald-700 transition-colors"
-                  >
-                    Pay Now
-                  </button>
+                  <div className="mt-auto pt-6">
+                    <button
+                      onClick={handlePaymentStep}
+                      className="w-full bg-emerald-600 text-white py-2 rounded text-sm hover:bg-emerald-700 transition-colors"
+                    >
+                      Pay Now
+                    </button>
+                  </div>
                 </div>
 
                 {/* Popular Plan */}
                 <div
-                  className={`bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-lg transition-all hover:shadow-xl ${
+                  className={`bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-lg transition-all hover:shadow-xl flex flex-col h-full ${
                     selectedPlan === "popular" ? "border-2 border-emerald-500 ring-2 ring-emerald-200" : ""
                   }`}
                   onClick={() => handlePlanSelect("popular")}
@@ -146,7 +148,7 @@ export default function Plans() {
                     <h3 className="text-3xl font-bold mb-1">3200 L.E</h3>
                     <p className="text-sm text-gray-600">Per member, per Month</p>
                   </div>
-                  <ul className="space-y-3">
+                  <ul className="space-y-3 flex-grow">
                     <li className="flex items-start">
                       <div className="flex-shrink-0 h-5 w-5 rounded-full bg-emerald-500 flex items-center justify-center mt-0.5">
                         <svg className="h-3 w-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -201,17 +203,19 @@ export default function Plans() {
                       <span className="ml-2 text-sm text-gray-700">8 sessions/month +some classes</span>
                     </li>
                   </ul>
-                  <button
-                    onClick={handlePaymentStep}
-                    className="w-full mt-6 bg-emerald-600 text-white py-2 rounded text-sm hover:bg-emerald-700 transition-colors"
-                  >
-                    Pay Now
-                  </button>
+                  <div className="mt-auto pt-6">
+                    <button
+                      onClick={handlePaymentStep}
+                      className="w-full bg-emerald-600 text-white py-2 rounded text-sm hover:bg-emerald-700 transition-colors"
+                    >
+                      Pay Now
+                    </button>
+                  </div>
                 </div>
 
                 {/* Advanced Plan */}
                 <div
-                  className={`bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-lg transition-all hover:shadow-xl ${
+                  className={`bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-lg transition-all hover:shadow-xl flex flex-col h-full ${
                     selectedPlan === "advanced" ? "border-2 border-emerald-500 ring-2 ring-emerald-200" : ""
                   }`}
                   onClick={() => handlePlanSelect("advanced")}
@@ -221,7 +225,7 @@ export default function Plans() {
                     <h3 className="text-3xl font-bold mb-1">4200 L.E</h3>
                     <p className="text-sm text-gray-600">Per member, per Month</p>
                   </div>
-                  <ul className="space-y-3">
+                  <ul className="space-y-3 flex-grow">
                     <li className="flex items-start">
                       <div className="flex-shrink-0 h-5 w-5 rounded-full bg-emerald-500 flex items-center justify-center mt-0.5">
                         <svg className="h-3 w-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -283,12 +287,14 @@ export default function Plans() {
                       <span className="ml-2 text-sm text-gray-700">Question from customer service 6 times a month</span>
                     </li>
                   </ul>
-                  <button
-                    onClick={handlePaymentStep}
-                    className="w-full mt-6 bg-emerald-600 text-white py-2 rounded text-sm hover:bg-emerald-700 transition-colors"
-                  >
-                    Pay Now
-                  </button>
+                  <div className="mt-auto pt-6">
+                    <button
+                      onClick={handlePaymentStep}
+                      className="w-full bg-emerald-600 text-white py-2 rounded text-sm hover:bg-emerald-700 transition-colors"
+                    >
+                      Pay Now
+                    </button>
+                  </div>
                 </div>
               </div>
             </>

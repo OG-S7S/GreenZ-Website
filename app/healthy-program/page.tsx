@@ -48,7 +48,7 @@ export default function HealthyProgramPage() {
           <div className="md:w-1/2">
             <div className="relative h-[400px] w-full rounded-xl overflow-hidden shadow-xl">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mariana-medvedeva-usfIE5Yc7PY-unsplash.jpg-G0JHWuYbxuLbjODN6UvUFpngsBdRpB.jpeg"
+                src="/images/nutrition.jpg"
                 alt="Health Research"
                 fill
                 className="object-cover"
@@ -155,21 +155,21 @@ export default function HealthyProgramPage() {
           Stay informed with the latest health tips, research findings, and wellness advice from our experts.
         </p>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {/* Blog Post 1 */}
-          <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden flex flex-col h-full">
             <div className="relative h-[220px] w-full">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-shvetsa-3902882.jpg-RxSYujwanhdQuq9OTX2dmcFzajH3A6.jpeg"
+                src="/images/doc1.jpg"
                 alt="Morning Exercise Benefits"
                 fill
                 className="object-cover"
               />
             </div>
-            <div className="p-6">
+            <div className="p-6 flex flex-col flex-grow">
               <p className="text-sm text-emerald-600 font-medium mb-2">FITNESS</p>
               <h3 className="text-xl font-bold mb-3">Morning Exercise: The Key to a Productive Day</h3>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600 mb-4 flex-grow">
                 Discover how starting your day with just 20 minutes of exercise can boost your energy, improve focus, and enhance your mood throughout the day.
               </p>
               <Link href="/blog/morning-exercise" className="text-emerald-600 font-medium hover:text-emerald-800">
@@ -179,19 +179,19 @@ export default function HealthyProgramPage() {
           </div>
 
           {/* Blog Post 2 */}
-          <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden flex flex-col h-full">
             <div className="relative h-[220px] w-full">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/chad-montano-M0lUxgLnlfk-unsplash.jpg-oxrl3L1WAOFzJLOperSgb1tRF75hov.jpeg"
+                src="/images/granola-cups.png"
                 alt="Nutrition Myths"
                 fill
                 className="object-cover"
               />
             </div>
-            <div className="p-6">
+            <div className="p-6 flex flex-col flex-grow">
               <p className="text-sm text-emerald-600 font-medium mb-2">NUTRITION</p>
               <h3 className="text-xl font-bold mb-3">5 Common Nutrition Myths Debunked</h3>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600 mb-4 flex-grow">
                 Our nutrition experts separate fact from fiction and debunk the most persistent myths about dieting, superfoods, and healthy eating habits.
               </p>
               <Link href="/blog/nutrition-myths" className="text-emerald-600 font-medium hover:text-emerald-800">
@@ -201,19 +201,19 @@ export default function HealthyProgramPage() {
           </div>
 
           {/* Blog Post 3 */}
-          <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden flex flex-col h-full">
             <div className="relative h-[220px] w-full">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mariana-medvedeva-usfIE5Yc7PY-unsplash.jpg-G0JHWuYbxuLbjODN6UvUFpngsBdRpB.jpeg"
+                src="/images/steak.jpg"
                 alt="Sleep Quality"
                 fill
                 className="object-cover"
               />
             </div>
-            <div className="p-6">
+            <div className="p-6 flex flex-col flex-grow">
               <p className="text-sm text-emerald-600 font-medium mb-2">WELLNESS</p>
               <h3 className="text-xl font-bold mb-3">The Science of Sleep: Improving Rest Quality</h3>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600 mb-4 flex-grow">
                 Learn the latest scientific findings on sleep hygiene and practical tips to enhance your sleep quality for better health and well-being.
               </p>
               <Link href="/blog/sleep-science" className="text-emerald-600 font-medium hover:text-emerald-800">

@@ -34,7 +34,7 @@ export default function GreenZDoctors() {
       experience: "10+ years",
       location: "Downtown Clinic",
       image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/alexandr-podvalny-tE7_jvK-_YU-unsplash.jpg-dIIRpeRjhVr1rhFLVTYBFhZ5yqj4kL.jpeg",
+        "/images/doc.jpg",
       availability: "Mon, Wed, Fri",
       bio: "Dr. Johnson specializes in nutrition planning for weight loss and overall health improvement. She has helped hundreds of patients achieve their health goals through personalized diet plans.",
     },
@@ -46,7 +46,7 @@ export default function GreenZDoctors() {
       experience: "15+ years",
       location: "Heart Health Center",
       image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ashkan-forouzani-DPEPYPBZpB8-unsplash.jpg-WkK8BLj3SvSHB8tLinsu1sPrgepBQH.jpeg",
+        "/images/doc1.jpg",
       availability: "Tue, Thu, Sat",
       bio: "Dr. Chen is a board-certified cardiologist with expertise in preventive cardiology and heart-healthy lifestyle modifications. He focuses on non-invasive treatments and dietary approaches.",
     },
@@ -58,7 +58,7 @@ export default function GreenZDoctors() {
       experience: "8+ years",
       location: "Metabolic Health Clinic",
       image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/alexandr-podvalny-tE7_jvK-_YU-unsplash.jpg-dIIRpeRjhVr1rhFLVTYBFhZ5yqj4kL.jpeg",
+        "/images/doc2.jpg",
       availability: "Mon, Tue, Thu",
       bio: "Dr. Rodriguez specializes in diabetes management and hormonal disorders. She takes a holistic approach to treatment, incorporating diet, exercise, and lifestyle changes.",
     },
@@ -82,7 +82,7 @@ export default function GreenZDoctors() {
       experience: "7+ years",
       location: "Wellness Nutrition Center",
       image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/alexandr-podvalny-tE7_jvK-_YU-unsplash.jpg-dIIRpeRjhVr1rhFLVTYBFhZ5yqj4kL.jpeg",
+        "/images/doc3.jpg",
       availability: "Mon, Wed, Fri",
       bio: "Dr. Patel creates customized nutrition plans for weight management, food allergies, and chronic disease prevention. She emphasizes sustainable eating habits and cultural food preferences.",
     },
@@ -378,9 +378,16 @@ export default function GreenZDoctors() {
                 </div>
               </div>
 
-              <div className="flex justify-center">
+              <div className="flex justify-center gap-4">
                 <button className="bg-emerald-600 text-white px-6 py-3 rounded-lg hover:bg-emerald-700 transition-colors">
                   Book Appointment
+                </button>
+                <button
+                  className="bg-red-500 text-white px-6 py-3 rounded-lg hover:bg-red-600 transition-colors"
+                  onClick={() => alert('appointment cancelled')}
+                  type="button"
+                >
+                  Cancel Appointment
                 </button>
               </div>
             </div>
